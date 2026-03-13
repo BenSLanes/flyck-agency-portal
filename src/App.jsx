@@ -1,3 +1,4 @@
+import { NotificationBell } from "./components/NotificationBell";
 import { useState, useRef, useEffect } from "react";
 
 // ══════════════════════════════════════════
@@ -6689,4 +6690,5 @@ export default function FlyckyCandidate() {
     </AuthGate>
   );
 }
+
 
