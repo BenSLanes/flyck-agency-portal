@@ -6309,7 +6309,7 @@ function FlyckyPortal() {
   const allData = { ...p1, ...p2, ...p3, ...p4 };
   const isCompleted = stage === 4;
   return (
-    <div style={{ minHeight: "100vh", background: C.bg }}>
+    <div style={{ minHeight: "100vh", background: C.bg }}><NotificationBell portalTarget="agency" />
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500;600;700&display=swap');
         *{box-sizing:border-box;margin:0;padding:0;}
@@ -6689,3 +6689,4 @@ export default function FlyckyCandidate() {
     </AuthGate>
   );
 }
+
